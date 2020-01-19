@@ -1,0 +1,71 @@
+/* reset.css */ 
+
+/* 
+below is taken from undohtml.css 
+(CC) 2004 Tantek Celik. Some Rights Reserved. 
+http: //creativecommons.org/licenses/by/2.0 
+This style sheet is licensed under a Creative Commons License. 
+*/ 
+
+:link, :visited { text-decoration: none; } 
+ul, ol { list-style: none; } 
+h1, h2, h3, h4, h5, h6, pre, code { font-size: 1em; } 
+h1 { font-size: 1.50em; } 
+h2 { font-size: 1.25em; } 
+h3 { font-size: 1.15em; } 
+h4 { font-size: 1.10em; } 
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0px; padding: 0px; } 
+a img, :link img, :visited img { border: 0px; } 
+address { font-style: normal; } 
+
+
+/* 
+below is reset.css from buddypress default theme
+ Reset default browser CSS.
+ Based on work by Eric Meyer: 
+ http: //meyerweb.com/eric/tools/css/reset/index.html
+*/ 
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; /* font-size: 100%; */ vertical-align: baseline; /* background: transparent; */ }
+center { margin: 0; padding: 0; border: 0; outline: 0;  vertical-align: baseline;  } /* center is obsolete */ 
+body { background: #fff; line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/* remember to define focus styles! */
+:focus { outline: 0;}
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none;}
+del { text-decoration: line-through;}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0;}
+
+a img { border: none; }
+
+
+/* 
+below is added by Colin O'Brien
+(c) 2010-2012 Clearweave Corporation.
+*/
+
+html { height: 101%; } 
+body { font-size: 1.000em; } /* if the default font is 16px, then 0.875em gives you 14px; per http://www.w3schools.com/css/css_font.asp */ 
+strong { font-weight: 800; } 
+p { line-height: 1.42857; /* 1.22; */ } 
+div.aff-reset-floats { clear: both; height: 0 } /*  5px; } */ 
+a:hover { text-decoration: underline; } 
+#access a:hover { text-decoration: none; } 
+
+header, hgroup, footer, section, article, nav, aside { display: block; }
+figure {
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+

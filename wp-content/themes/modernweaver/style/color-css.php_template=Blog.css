@@ -1,0 +1,103 @@
+
+/* start modernweaver custom 20200119174453 
+*/ 
+body { color: #000000; background-color: #fdfdfd;  } 
+#content { color: #002200; background-color: #fefefe;  } 
+#content-frontpage { color: #002200; background-color: #fefefe;  } 
+#content, #content-frontpage { border: 1px solid #fefefe; } 
+#content, #content-frontpage { border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; } 
+#page-header { border: 1px solid #fefefe; border-bottom: 0px; } 
+#page-header { border-top-right-radius: 13px; border-top-left-radius: 13px; } 
+#page-header { color: #002200; background-color: #fefefe;  } 
+#page-header-frontpage { color: #002200; background-color: #fefefe;  } 
+ 
+a { color: #0e0eee; background-color: #fefefe;  } 
+a:hover { color: #ee0e0e; background-color: #fefefe;  } 
+footer a { color: #0e0eee; background-color: transparent;  } 
+#main-menu { color: #000000; background-color: transparent;  } 
+nav a { color: #000000; background-color: transparent;  } 
+nav a:hover { color: #000000; background-color: transparent;  } 
+ 
+#page-footer { color: #002200;  } 
+#page-footer-frontpage { color: #002200;  } 
+
+
+html, body { font-family: 'Helvetica','Arial','sans-serif'; } 
+h1, h2, h3, h4, h5, h6 { font-family: 'Helvetica','Arial','sans-serif'; } 
+
+.menu             { font-family: 'Helvetica','Arial','sans-serif'; } 
+body { font-size: 0.875em; } 
+ul.menu { font-size: 1em; } 
+
+.nav-prev { background: url(../images/previous_16.png) no-repeat; background-position: left bottom; }
+.nav-next { background: url(../images/next_16.png) no-repeat; background-position: right bottom; }
+
+.post-icon-aside span:before   { content: "\f101"; color: #0e0eee;    -webkit-font-smoothing: antialiased; font: 32px/20px "Genericons"; vertical-align: bottom;    }
+.post-icon-status span:before   { content: "\f105"; color: #0e0eee;    -webkit-font-smoothing: antialiased; font: 32px/20px "Genericons"; vertical-align: bottom;    } 
+.post-icon-quote span:before   { content: "\f106"; color: #0e0eee;    -webkit-font-smoothing: antialiased; font: 32px/20px "Genericons"; vertical-align: bottom;    }
+.post-icon-link span:before   { content: "\f107"; color: #0e0eee;    -webkit-font-smoothing: antialiased; font: 32px/20px "Genericons"; vertical-align: bottom;    }
+
+.nav-vertical .menu li.current-menu-item .sub-menu { display: block; margin-left: 0em; /* width: 175%; */  }
+.nav-vertical .menu li.menu-item .sub-menu { margin-top: 1em; }
+.nav-vertical .menu li.current-menu-ancestor .sub-menu { display: block; }
+.nav-vertical .menu li.current-page-ancestor .sub-menu { display: block; }
+.nav-horizontal .menu li.current-menu-item .sub-menu { display: block; position: absolute; top: 2.3em; /* width: 100%; */ /* padding: 0; */ height: 2em; float: none; }
+.nav-horizontal { min-height: 4em; }
+.menu-background-horizontal { min-height: 2em; position: absolute; top: 2em; left: 0; right: 0; background-color: #cff; }
+
+#empty-behind-menus { width: 20%; } 
+
+#blog-sidebar { width: 17.6%; } 
+.mw-main-section { width: 56%; margin-left: 19%; } 
+#footerrow1, #footerrow2, #footerrow3 { width: 96.1%; } 
+img { max-width: 100% !important; height: auto !important; } 
+img { max-width: 100% !important; height: auto !important; max-height: 800px !important;  } 
+    
+
+/*****************************************/ 
+@media screen and ( max-width: 594px) {  /* only screen and (min-device-width: 320px) and (max-device-width: */ 
+
+/* got this from http://webdesignerwall.com/tutorials/responsive-design-with-css3-media-queries   */
+img { width: auto\9; /* ie8 */ } 
+#main-menu, #home-main-menu { color: #000000; background-color: #fefefe;  } 
+nav a { color: #000000; background-color: #fefefe;  } 
+
+
+.article-author { float: none; }
+.nav-vertical { position: relative; /* min-height: 5.5em; */ } 
+.nav-vertical li { float: left; position: relative; } 
+.nav-vertical a { display: block; padding: 0.5em 2em 0px 0px;  } 
+.navaboveright ul, .navbelowright ul { float: none; margin-right: 2%; } 
+.nav-vertical.navalignleft .menu li { margin-bottom: 0.3em; margin-left: 2%; }
+
+
+#page { margin-top: 0%; } 
+#page-header { min-height: 5em; } 
+#home-main-menu, #main-menu { top: 0px; } 
+.nav-horizontal { padding: 0em 0em 1.5%  3.2%;  min-height: 1em; } 
+#company-logo { padding-left: 3.2%; } 
+#nav-page-posts { padding-left: 1.2%; }
+#blog-sidebar { padding-left: 2.7%; }
+#page-footer { padding-left: 3.7%; } 
+
+#content, #content-frontpage { min-height: 400px; } 
+
+#BlogLower1 {float: none; }
+#BlogLower2 { float: none; }
+#blog-sidebar { width: 98%; float: none; clear: both; margin-left: 1%; }  
+#main, #main-nonblog-section { width: 98.4%; margin-left: 0%; } 
+
+#the-page { background-color: #fdfdfd; }
+
+/* for mobile menu */ 
+$mw_color_css = mw_color_css( ".menu-toggle::before",  $menu_text_color, $menu_background_color );
+$mw_color_css = mw_color_css( "#page-header",          $menu_text_color, $menu_background_color );
+$mw_color_css = mw_color_css( "#company-logo",         $menu_text_color, $menu_background_color );
+$mw_color_css = mw_color_css( "#company-logo a",       $menu_text_color, $menu_background_color );
+$mw_color_css = mw_color_css( "#menu-main_nav .menu-item a:hover, #menu-home_nav .menu-item a:hover", $link_hover_color, $menu_background_color );
+/* end mobile menu */ 
+
+} /* end media  ( max-width: 594px) */ 
+
+    
+/*   end modernweaver custom 20200119174453 */  

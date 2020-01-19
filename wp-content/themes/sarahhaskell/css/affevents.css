@@ -1,0 +1,148 @@
+/* affevents.css */ 
+/*
+This is the default stylesheet. You should probably leave it as is.
+To customize any of these styles, drop a *copy* of this file into your current theme directory.
+Any style changes make there will override styles in this document.
+*/
+
+/* Meet the table that displays our events */
+.affevents-table { width: 100%; border: none; border-top: 0px solid #CCC; margin: 0 0 1em 0; }
+
+/* This is for the main header cells containing the column labels */
+tr.affevents-header th { font-weight: bold; }
+
+/* Generic class for the table header cells */
+.affevents-table th { padding: 6px 8px; vertical-align: middle; text-align: left; border-bottom: 1px solid #CCC; }
+
+/* This is for the grouping name header cells */
+th.affevents-heading { background: #F3F3F3; border-bottom: 1px solid #CCC; }
+
+/* This is for the grouping name headings, whichever one you're using */
+th.affevents-heading h1, th.affevents-heading h2, th.affevents-heading h3, th.affevents-heading h4, th.affevents-heading h5 { margin: 0; }
+
+/* Applies to all cells in the table */
+.affevents-table td { padding: 6px 8px; vertical-align: middle; text-align: left; }
+
+/* Some subtle hover effects */
+/* colin .affevents-row:hover, .affevents-info:hover { background: #FCFCFC; color: #000; }
+*/
+/* Applies to the first row of each event listing */
+.affevents-row td { border-bottom: 1px solid #EEE; }
+
+/* To set an alternating row style */
+tr.affevents-alt { }
+
+/* Individual classes for the label header cells that start the table */
+th.affevents-date { }
+
+th.affevents-locale { }
+
+th.affevents-province { }
+
+th.affevents-venue { }
+
+th.affevents-country { text-align: center; }
+
+/* Likewise, individual classes for the content cells */
+td.affevents-date { }
+
+td.affevents-locale { }
+
+td.affevents-province { }
+
+td.affevents-venue { }
+
+td.affevents-country { text-align: center; }
+
+tr.affevents-info td { font-size: 90%; color: #333; border-bottom: 1px solid #CCC; }
+
+tr.affevents-row.cancelled, tr.affevents-info.cancelled, tr.cancelled span.affevents-info-label, tr.cancelled span.affevents-info-item { color: #999; }
+
+/* This wraps each of the address, admission, etc spans in the "info" cell */
+span.affevents-info-item { }
+
+/* For the labels for address, admission, etc in the "info" cell */
+span.affevents-info-label { color: #666; }
+
+/* For the spacer cell that goes in-between groupings */
+td.affevents-empty { }
+
+/* In case you want to style the "Buy Tickets" link */
+a.buy-tickets { font-weight: bold; }
+
+/* Notices for Cancelled or Sold Out events */
+strong.affevents-cancelled, strong.affevents-soldout { text-transform: uppercase; font-weight: bold; color: red; }
+
+/* In case you want to style the Googlefied address link */
+a.affevents-address { }
+
+/* This is for the RSS link */
+td.affevents-rss a { padding-left: 14px; background: transparent url(../images/feed-icon-12x12.png) no-repeat left center; }
+
+/* These styles are for the sidebar listing */
+
+/* This is the unordered list that holds the dates */
+ul.affevents-listing { margin-top: 6px; }
+
+/* Generic styles for the list items within */
+ul.affevents-listing li { margin-top: 3px !important; margin-bottom: 6px !important; }
+
+/* For grouping headings in the sidebar */
+span.affevents-list-heading { font-weight: bold; font-size: 110%; }
+
+/* So if you like you can syle the first list item differently */
+li.affevents-list-first { margin-top: 3px; }
+
+/* So if you like you can syle the last list item differently */
+li.affevents-list-last { }
+
+/* So if you like you can syle each alternating list item differently */
+li.affevents-alt { }
+
+/* So if you like you can syle the date differently */
+span.affevents-date { /* font-weight: bold; */ }
+
+/* Sold Out events in the sidebar */
+ul.affevents-listing strong.affevents-soldout { display: block; }
+
+/* Add a feed icon to the RSS link */
+li.affevents-list-rss a { padding-left: 14px; background: transparent url(../images/feed-icon-12x12.png) no-repeat left center; color: inherit; font-size: 85% !important; }
+
+ul.affevents-related-event { margin-bottom: 2em; }
+
+.affevents-related-label { font-weight: bold; }
+
+/* This is just to include data dor hcalendar support, but hide it from view */
+span.hide { display: none; }
+
+/* Stop Firefox from underlining our abbreviated dates */
+abbr { border: none; text-decoration: none; font-size: 100%; }
+
+.vevent { margin-bottom: 24px; } 
+/* .affevents-event { margin-bottom: 24px; } */
+.affevents-title { } 
+.affe-sidebar-title { font-weight: bold; } 
+
+/* .affevents-info-item { margin-top: 6px; } */
+.description { margin-top: 6px; width: 500px; } 
+
+
+/* CUSTOMIZATION FOR MARTHAROCKKELLER */ 
+
+h4.affevents-title { margin-bottom: 6px; font-size: 114%; }
+
+div.affevents-info-item { margin-bottom: 0px; line-height: 1.14em; /* 1.35em; */ }
+
+div.affevents-locale { margin-bottom: 6px; }
+
+div.affevents-heading h3 { margin-bottom: 6px; font-size: 143%; }
+
+div.affevents-resume-item { margin-bottom: 4px; }
+
+span.affevents-date { font-size: 86%; } 
+
+div.dtstart { display: inline; margin-left: 6px; } 
+
+div.affevents-date { margin-bottom: 6px; } 
+
+

@@ -1,0 +1,33 @@
+
+@media all and (min-width: 640px) {
+
+#content { min-height: 512px; }
+
+.alignleft { float: left; }
+.alignright { float: right; }
+
+.mw-main-section { min-height: 512px; } 
+
+#sidebars-right { width: 20%; position: absolute; top: 0; bottom: 0; right: 0; display: block; overflow: hidden; } 
+#empty-behind-menus { top: 0; bottom: 0; left: 0; position: absolute; display: block; overflow: hidden; }
+
+#blog-sidebar { /* width: 17.6%; */ position: absolute; top: 0; right: 0%; bottom: 0px; overflow: hidden; } 
+
+#BlogLower1 {float: left; }
+
+#BlogLower2 { float: left; }
+
+
+#FooterRow1, #FooterRow2, #FooterRow3 { top: 0px; bottom: 0px; position: absolute;}
+
+
+
+.navalignright ul { float: right; } 
+
+.nav-vertical { top: 9.2em; width: 19%; } /* these values to be derived from other options - size of header, size of left sidebar/indent of content */  
+.nav-vertical .menu { margin-top: 3%; float: left; width: 98.4%; } /* 1.0em; } */
+.nav-vertical.navalignright .menu li { text-align: right; margin: 0 8% 1em 0; } 
+
+} /* end @media all and (min-width: 640px) */ 
+
+
